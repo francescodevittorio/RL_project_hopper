@@ -3,7 +3,7 @@ This project implements various reinforcement learning algorithms for training a
 
 ## Scripts Description
 
-### 'agent_Actor_Critic.py'
+### `agent_Actor_Critic.py`
 
 This script defines the policy, critic, and agent classes for the Actor-Critic algorithm. 
 The linked train script is: `train_Actor_Critic.py`.
