@@ -16,7 +16,7 @@ The linked train script is: `train_Reinforce_Baseline.py`.
 ### `agent_Reinforce.py`
 
 This script defines the policy and agent classes for the REINFORCE algorithm.
-The linked train script is: `train_Reinforce.py`
+The linked train script is: `train_Reinforce.py`.
 
 ### `train_Actor_Critic.py`
 
@@ -57,7 +57,7 @@ This script evaluates a trained PPO model on a specified environment.
 To test different training-test configurations (source->source, source->target, target->target), 
 appropriate changes need to be made to the 'env' and 'model.load()' paths.
 
-### `UDR_train.py.
+### `UDR_train.py`
 
 This script trains a PPO model using Uniform Domain Randomization.
 The linked environment is 'custom_hopper_UDR.py'.
@@ -80,8 +80,7 @@ This safe policy will later be used as the initial policy in the SimOpt with GAN
 
 ### `gridsearch_project_extension.py`
 
-This script performs a grid search to optimize the learing rates of discriminator and generator and the simulated batch size of the simulated trajectories
-for the SimOpt algorithm with GANs.
+This script performs a grid search to optimize the learing rates of discriminator and generator and the simulated batch size of the simulated trajectories for the SimOpt algorithm with GANs.
 The results of the grid search are logged to CSV files and visualized using Weights and Biases.
 
 ### `project_extension.py`
@@ -92,5 +91,5 @@ This script requires modifications for different runs, such as changing hyperpar
 
 ## Requirements
 
-Install the required packages using `requirements.txt`:
+Install the required packages using `requirements.txt`.
 
