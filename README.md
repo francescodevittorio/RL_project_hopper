@@ -41,9 +41,9 @@ The script defines a custom callback for logging rewards and integrates with sta
 
 ### `PPO_best_source_train.py`
 
-This script trains a PPO model with the best hyperparameter combination on the source environment.
+This script trains a PPO model, with the best hyperparameter combination, on the source environment.
 It uses Stable-Baselines3 for the PPO implementation and integrates Weights & Biases for logging.
-The training and evaluation are both performed on the 'CustomHopper-source-v0' environment.
+The training is performed on the 'CustomHopper-source-v0' environment, and the evaluation is done on the 'CustomHopper-target-v0' environment.
 
 ### `PPO_best_target_train.py`
 
