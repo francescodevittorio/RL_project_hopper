@@ -41,7 +41,9 @@ The script defines a custom callback for logging rewards and integrates with sta
 
 ### `PPO_best_source_train.py`
 
-This script implements the project extension using the SimOpt algorithm without grid search. It trains a generator and discriminator network to optimize the dynamics parameters, logging the results to CSV files and wandb. This script can be modified for different runs by changing hyperparameters, seed, or iteration counts.
+This script trains a PPO model with the best hyperparameter combination on the target environment.
+It uses Stable-Baselines3 for the PPO implementation and integrates Weights & Biases for logging.
+The training and evaluation are both performed on the 'CustomHopper-target-v0' environment.
 
 ### `PPO_best_target_train.py`
 
